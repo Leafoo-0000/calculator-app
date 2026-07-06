@@ -1,0 +1,53 @@
+.root-pane {
+    -fx-background-color: #1e1e1e;
+}
+
+.display {
+    -fx-font-size: 36px;
+    -fx-alignment: center-right;
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-border-color: transparent;
+    -fx-padding: 10 15 10 15;
+}
+
+.button-grid {
+    -fx-background-color: transparent;
+}
+
+.btn-digit {
+    -fx-background-color: #3c3c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-radius: 50;
+}
+
+.btn-operator {
+    -fx-background-color: #ff9500;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-radius: 50;
+}
+
+.btn-function {
+    -fx-background-color: #a5a5a5;
+    -fx-text-fill: black;
+    -fx-font-size: 18px;
+    -fx-background-radius: 50;
+}
+
+.btn-equals {
+    -fx-background-color: #ff9500;
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 50;
+}
+
+.btn-digit:hover,
+.btn-operator:hover,
+.btn-function:hover,
+.btn-equals:hover {
+    -fx-opacity: 0.85;
+}
